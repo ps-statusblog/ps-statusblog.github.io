@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    {% seo %}
+    {% feed_meta %}
+    <meta name="msvalidate.01" content="8EA1A0479084B45F2F4CC903ED580BD8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4f4f4f">
+    <link rel="stylesheet" href="https://sounoob.com.br/assets/css/20180322.css" media="screen">
+    <link rel="publisher" href="{{ site.google_publisher }}"/>
+    <meta name="twitter:card" content="{{ site.twitter_card }}"/>
+    <meta name="twitter:title" content="{{ site.title }}"/>
+    {% if site.og_image %}
+    <meta property="og:image" content="{{ site.og_image }}"/>
+    <meta name="twitter:image" content="{{ site.og_image }}"/>
+    {% endif %}
+    {% if page.author %}
+        {% assign author = site.data.authors[page.author] %}
+        {% if author.facebook %}
+            <meta property="article:author" content="https://www.facebook.com/{{ author.facebook }}" />
+        {% endif %}
+    {% endif %}
+    {% if site.google_analytics and jekyll.environment == "production" %}
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', '{{ site.google_analytics }}', 'auto');ga('send', 'pageview'); window.onload = function () { var externalLinks = document.querySelectorAll('a[href^="http"]'); for (var i = externalLinks.length-1; i >= 0; i--) { if(!externalLinks[i].href.match(/{{ site.title | slugify}}/g)) { externalLinks[i].addEventListener('click', function() { if(this.alt) { var title = this.alt; }else if(this.title) { var title = this.title; }else{ var title = 'Link sem alt/title'; } ga('send', 'event', 'outbound-article', title, this.href); }, false);}}}</script>
+    {% endif %}
+    {% if page.sitemap == false %}
+    <meta name="robots" content="noindex, nofollow"/>
+    {% endif %}
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-9506380809200059",enable_page_level_ads: true});</script>
+</head>

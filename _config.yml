@@ -1,0 +1,43 @@
+---
+title: SouNoob
+timezone: America/Sao_Paulo
+lang: pt_BR
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+future: true
+url: https://sounoob.com.br
+excerpt_separator: "<!--more-->"
+tagline: Repita comigo, eu sou noob. eu sou noob...
+google_analytics: UA-5016269-14
+baseurl: ''
+paginate: 6
+dateformat: "%d-%m-%Y"
+comments: true
+plugins:
+- jekyll-sitemap
+- jekyll-paginate
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-redirect-from
+description: Este blog é para essas pessoas que vivem estudando coisas complexas e
+  esquecem de como fazer as coisas mais simples.
+facebook:
+  app_id: 370117756342202
+social:
+  name: Sounoob
+  links:
+  - https://www.facebook.com/sounoob
+  - https://plus.google.com/+SounoobBr
+google_site_verification: AN1qzV2xb-W-75y34Vdnqi2WEFKaqg1XsfN2RJ3GRkg
+markdown: kramdown
+category_dir: topics
+sass:
+  sass_dir: assets/css/
+  style: compressed
+permalink: "/:title/"
+exclude: [vendor]

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign post_content = content %}
+{% include post.html %}
+{% if jekyll.environment == "production" %}
+{% if post.tags.size > 0 %}
+{% for tag in post.tags %}
+<script>ga('send', 'event', 'tag', '{{ tag }}', this.href);</script>
+{% endfor %}
+{% endif %}
+
+{% if post.categories.size > 0 %}
+{% for category in post.categories %}
+<script>ga('send', 'event', 'category', '{{ category }}', this.href);</script>
+{% endfor %}
+{% endif %}
+
+{% if site.comments %}
+<div class="box">
+    <div class="fb-comments" id="comentarios" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="100"></div>
+</div>
+{% endif %}
+{% endif %}

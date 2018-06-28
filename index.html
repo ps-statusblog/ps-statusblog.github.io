@@ -1,0 +1,18 @@
+---
+title: Página inicial
+layout: default
+---
+
+{% for post in paginator.posts %}
+    {% include post.html %}
+{% endfor %}
+
+<div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Anterior</a>
+    {% endif %}
+    <span class="page_number ">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Próxima</a>
+    {% endif %}
+</div>

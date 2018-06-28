@@ -1,0 +1,15 @@
+---
+title: Página do autor
+layout: page
+---
+
+{% assign title = page.author %}
+<ul>
+    {% for post in site.posts %}
+    {% if post.author ==  page.author %}
+    <li>
+        {{ post.date | date: site.dateformat }}: <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
