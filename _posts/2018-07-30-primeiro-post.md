@@ -2,6 +2,7 @@
 layout: post
 title: Primeiro post…
 permalink: "/primeiro-post/"
+date: 2018-07-30 15:47:00 -03:00
 categories:
 - Comunicados
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Primeiro ataque do PagSeguro
+date: 2018-07-30 16:56:00 -03:00
 categories:
 - Comunicados
 ---
