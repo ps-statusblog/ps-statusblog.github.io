@@ -10,3 +10,7 @@ O ambiente de sandbox do PagSeguro está passando por uma instabilidade deste as
 Ainda não temos nenhuma resposta oficial do PagSeguro referente ao ocorrido, porém estamos monitorando e atualizaremos esse post conforme for atualizando.
 
 Fique a vontade de usar os comentários para dizer se isso está afetando você, e como você está contornando a situação.
+
+[Update 18:48]
+
+Instabilidades parece ter parado, porém maioria das requisições na média de 60 segundos (algumas mais outras menos). Nesse caso aumentem o timeout da aplicação...
