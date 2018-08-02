@@ -4,7 +4,7 @@ title: Primeiro post…
 permalink: "/primeiro-post/"
 date: 2018-07-30 15:47:00 -03:00
 categories:
-- Comunicados
+- comunicados
 ---
 
 Bora lá... criei mais um blog. Esse aqui será exclusivamente para reportar o status dos servidores do PagSeguro. Se um serviço cair postarei, quando o serviço voltar, postarei também. Então, precisarei muito da ajuda de vocês para monitorar isso tudo ai.

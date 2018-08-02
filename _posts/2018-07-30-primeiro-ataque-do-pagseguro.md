@@ -3,7 +3,7 @@ layout: post
 title: Primeiro ataque do PagSeguro
 date: 2018-07-30 16:56:00 -03:00
 categories:
-- Comunicados
+- comunicados
 ---
 
 No blog sounoob, temos um "health check" que utiliza Pingdom para analisar as APIs do PagSeguro. Provavelmente para inibir o uso do Pingdom o PagSeguro incluiu um limite no Sandbox de 1000 requisiçõse por hora, o que fez nosso "health check" parar de funcionar para o ambiente de sandbox.

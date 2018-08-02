@@ -2,7 +2,7 @@
 layout: post
 title: Instabilidade em sandbox
 categories:
-- Instabilidade
+- instabilidade
 ---
 
 O ambiente de sandbox do PagSeguro está passando por uma instabilidade deste as 11h30 AM, onde intermitentemente é retornado "Internal Server Error" (http status 200) do servidor independente da requisição realizada.
