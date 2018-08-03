@@ -20,3 +20,7 @@ Instabilidades parece ter parado, porém maioria das requisições na média de 
 [Update 20:27]
 
 O problema continua, agora de forma mais agravada, pouquissimas requisições estão passando e nenhum comunicado oficial sobre o caso.
+
+[Update 9:15]
+
+Viramos o dia com erros oscilando entre "Internal Server Error" (http status 200) e timeout. No começo da manhã tivemos uma normalizada, porém foi algo temporário. Ainda sem nenhum comunicado oficial.
