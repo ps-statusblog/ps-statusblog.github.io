@@ -13,14 +13,21 @@ Ainda não temos nenhuma resposta oficial do PagSeguro referente ao ocorrido, po
 
 Fique a vontade de usar os comentários para dizer se isso está afetando você, e como você está contornando a situação.
 
-[Update 18:48]
+**[Update 18:48]**
 
 Instabilidades parece ter parado, porém maioria das requisições na média de 60 segundos (algumas mais outras menos). Nesse caso aumentem o timeout da aplicação...
 
-[Update 20:27]
+**[Update 20:27]**
 
 O problema continua, agora de forma mais agravada, pouquissimas requisições estão passando e nenhum comunicado oficial sobre o caso.
 
-[Update 9:15]
+**[Update 9:15]**
 
 Viramos o dia com erros oscilando entre "Internal Server Error" (http status 200) e timeout. No começo da manhã tivemos uma normalizada, porém foi algo temporário. Ainda sem nenhum comunicado oficial.
+
+**[Update 11:44]**
+
+Aparentemente o serviço foi reestabelecido, as 10:42 e até o momento não houve mais intermitências. Acredito que podemos concluir que esse caso foi resolvido, depois de aproximadamente 24 horas.
+
+Abaixo gráfico com os momentos de instabilidades. Partes em vermelho são os momentos onde o PagSeguro esteve fora do ar.
+![alt text](/assets/2018/08/03/uptime.png)
