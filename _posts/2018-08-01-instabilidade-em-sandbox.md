@@ -30,4 +30,4 @@ Viramos o dia com erros oscilando entre "Internal Server Error" (http status 200
 Aparentemente o serviço foi reestabelecido, as 10:42 e até o momento não houve mais intermitências. Acredito que podemos concluir que esse caso foi resolvido, depois de aproximadamente 24 horas.
 
 Abaixo gráfico com os momentos de instabilidades. Partes em vermelho são os momentos onde o PagSeguro esteve fora do ar.
-![alt text](/assets/2018/08/03/uptime.png)
+![Uptime PagSeguro](/assets/2018/08/03/uptime.png)
