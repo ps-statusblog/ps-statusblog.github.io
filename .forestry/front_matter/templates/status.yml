@@ -7,3 +7,5 @@ fields:
   default: Layout
 - type: datetime
   default: 2018-09-20 03:00:00 +0000
+pages:
+- _posts/teste.md
